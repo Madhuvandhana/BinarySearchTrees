@@ -1,6 +1,6 @@
 
-hw4: main.o bs_tree.o random_generator.o timer.o sort.o
-	g++ -Wall -std=c++11 main.o bs_tree.o random_generator.o timer.o sort.o -o hw4
+bs: main.o bs_tree.o random_generator.o timer.o sort.o
+	g++ -Wall -std=c++11 main.o bs_tree.o random_generator.o timer.o sort.o -o bs
 
 main.o: main.cpp
 	g++ -c -std=c++11 main.cpp
